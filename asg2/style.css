@@ -1,3 +1,68 @@
 h1 {
-    color: #A12345;
+    text-align: center;
+}
+
+.menu-content-1, .menu-content-2, .menu-content-3 {
+    border-right: black;
+    border-width: 2px;
+    border-style: solid;
+    margin: 5px 10px 5px 10px;
+    background-color: grey;
+    display: inline-block;
+}
+
+.beef, .sushi, .chicken {
+    padding: 5px 10px 5px 10px;
+    float: right;
+    border-bottom: black;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-left: black;
+    border-left-width: 2px;
+    border-left-style: solid;
+}
+
+.chicken {
+    background-color: palevioletred;
+}
+
+.beef {
+    background-color: red;
+    color: white;
+}
+
+.sushi {
+    background-color: yellow;
+}
+
+.menu-content p {
+    text-align: justify;
+    padding: 10px 20px 10px 20px;
+}
+
+.main-div {
+    text-align: center;
+}
+
+@media only screen and (max-width: 767px) {
+    .menu-content-1, .menu-content-2, .menu-content-3 {
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .menu-content-1, .menu-content-2 {
+        width: 45%;
+    }
+
+    .menu-content-3 {
+        width: 93%;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .menu-content-1, .menu-content-2, .menu-content-3 {
+        width: 30%;
+    }
 }
