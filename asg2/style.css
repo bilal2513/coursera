@@ -47,7 +47,7 @@ h1 {
 @media only screen and (max-width: 767px) {
     .menu-content-1, .menu-content-2, .menu-content-3 {
         width: 80%;
-        margin: auto;
+        margin: 10px auto 0 auto;
     }
 }
 
